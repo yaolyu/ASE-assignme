@@ -39,7 +39,7 @@ void Bone::initializeBone(std::vector<ngl::Vec3> _verts,const std::string &_fnam
     return axis;
  }
 
- void Bone::bindControl(std::vector<ngl::Vec3> _verts,std::vector<ngl::Vec3> _bones)
+ /*void Bone::bindControl(std::vector<ngl::Vec3> _verts,std::vector<ngl::Vec3> _bones)
  {
 
      for(size_t i=0;i<m_boneNumber;++i)
@@ -59,7 +59,7 @@ void Bone::initializeBone(std::vector<ngl::Vec3> _verts,const std::string &_fnam
 const size_t* Bone::getBindLabel()
 {
           return m_bindLabel.get();
-}
+}*/
 
 
 std::vector<ngl::Vec3> Bone::ApplyDeformation(std::vector<ngl::Vec3> _verts, std::vector<float> _roatationAngle, bool _elimination)

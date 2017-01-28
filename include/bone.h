@@ -23,8 +23,8 @@ public:
     void test();
     ngl::Vec3 buildBoneAxis(ngl::Vec3 _chainStart,ngl::Vec3 _chainEnd);
     //bind vertices to bones
-     void bindControl(std::vector<ngl::Vec3> _verts,std::vector<ngl::Vec3> _bones);
-     const size_t* getBindLabel();
+     //void bindControl(std::vector<ngl::Vec3> _verts,std::vector<ngl::Vec3> _bones);
+    // const size_t* getBindLabel();
      //----------------------------------------------------------------------------------------------------------------------
      ///@brief load bones from outside file
      /// called from NGLScene
@@ -83,7 +83,7 @@ public:
      ngl::Mat4 worldCoordinateMatrix(ngl::Vec3 _boneStart,ngl::Vec3 _boneEnd);
 
 private:
-    float threshold=0.5;
+    //float threshold=0.5;
     std::unique_ptr<size_t []> m_bindLabel;
     size_t m_boneNumber;//=_bones.size();
     size_t m_jointNumber;
