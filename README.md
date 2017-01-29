@@ -1,4 +1,2 @@
-#Affine Transforms
-![alt tag](http://nccastaff.bournemouth.ac.uk/jmacey/GraphicsLib/Demos/Affine.png)
-
-A demonstration of affine transforms using matrices (mainly used for teaching maths)
+#Skin deformation
+A demonstration of skin deformation using Biharmonic Bounded Weights and Bulge Elimination Algorithms
